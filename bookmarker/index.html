@@ -1,12 +1,69 @@
-<html>
-    <head><link rel='stylesheet' type='text/css' href='style.css'>
 
-    <title>
-        new project
-    </title></head>
-    <body><div class='container'>
-    	<
-    	<p id='p1'> hey hey
-    	</p></div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Site Bookmarker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+         
+        </nav>
+        <h3 class="text-muted">Book Marker</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h2>Book Mark Your Sites</h2>
+       
+       <form id='myForm'>
+       	<div class='form-group'>
+       	<label>Site Name</label>
+       	<input type='text' class='form-control' id='siteName' placeholder='web Name'></div>
+       	<div class='form-group'> 
+
+	<label>Site URL</label>
+       	<input type='text' class='form-control' id='siteUrl' placeholder='web URL'>
+
+
+       	</div>
+       	<button type='submit' class='btn btn-primary'>submit</button>
+       </form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+        <div id='bookmarkresults'>
+        </div>
+
+        
+
+      <footer class="footer">
+        <p>Bookmarker by JT</p>
+      </footer>
+
+    </div> <!-- /container -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src='js/bootstrap.min.js'></script>
+	<script src='js/main.js'></script>
+
+  </body>
 </html>
